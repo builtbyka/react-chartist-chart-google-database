@@ -7,7 +7,7 @@ import ChartistLegend from './ChartistLegend.jsx';
 class App extends React.Component {
      componentDidMount() {
 
-        fetch('https://script.google.com/macros/s/AKfycbzlowGxO2cqxJRPMTCTk3h_u4spQ3wSSlK19QpztWRs418_VrLX/exec?id=1TAup6Tw658I_rAwc2kX1vPVkFLghEG_wPPGKzKFddtM&sheet=chart-example')
+        fetch('YOUR GOOGLE WEB APP CODE')
             .then(function(response) {
                 if (response.status >= 400) {
                     throw new Error('Bad response from server');
@@ -66,7 +66,7 @@ class App extends React.Component {
                         seriesOption = i;
                         submissionSegment[value] = 1;
                         submission = 'Value='+answer.name+'&'+answer.value+'=1';
-                        fetch('https://script.google.com/macros/s/AKfycbzzRbD2zju5idEtKKrvD5PmpQ0POxJCzqDwHjgwH3f-u2hFA60/exec?id=1TAup6Tw658I_rAwc2kX1vPVkFLghEG_wPPGKzKFddtM&sheet=chart-example&recon=Value&'+submission, {
+                        fetch('YOUR GOOGLE WEB APP CODE'+submission, {
                         method: 'POST',
                         //body: JSON.stringify('')
                     }).then(response => console.log(response))
