@@ -1,8 +1,8 @@
-#React Clientside boilerplate
+#React chartist with Google database
 
-Run npm install to get all modules setup
+See it working at [kerrianneellis.co.uk/chartwithdatabase](http://kerrianneellis.co.uk/chartwithdatabase/)
 
-Run gulp dev to start developing with local server
+A react based chart with data extracted from a Google sheet.
 
 
 
